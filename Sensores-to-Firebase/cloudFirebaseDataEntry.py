@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 # initialize sdk
-cred = credentials.Certificate("final-weather-98531-firebase-adminsdk-xlhhj-3d7a7f5571.json")
+cred = credentials.Certificate("Download and Enter json file from firebase!!")
 firebase_admin.initialize_app(cred)
 # initialize firestore instance
 firestore_db = firestore.client()
